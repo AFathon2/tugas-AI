@@ -30,7 +30,7 @@ ibunya(susan, mary).
 
 bapaknya(X, Y) :- bapaknya(X, Y).
 
-ibunya(X, Y) :- ibunya(X, Y).
+ibunya(X, Y) :- ibunya(X, Y). 
 
 pasangannya(X, Y) :- (menikah(X, Y) ; menikah(Y, X)).
 
